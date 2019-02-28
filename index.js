@@ -1,8 +1,8 @@
 // Code your solutions in this file
 
-function printBadges(badges) {
-  for (let i = 0; i < badges.length; i++) {  
-  console.log(`Welcome ${name[i]} and added a bow!`);
+function printBadges(names) {
+  for (let i = 0; i < names.length; i++) {  
+  console.log(`Welcome ${names[i]}! You are employee ${i}.`);
     }
     return gifts;
 }
