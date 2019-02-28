@@ -9,10 +9,11 @@ function printBadges(names) {
 printBadges(names);
 
 
-function tailsNeverFails(){
-  let counter = 0
+function tailsNeverFails() {
+  let i = 0
+
   while(Math.random() >= .5) {
-    counter++
+    i++ 
   }
   return `You got ${counter} tails in a row!`
 }
