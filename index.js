@@ -10,6 +10,10 @@ printBadges(names);
 
 
 function tailsNeverFails() {
+  let countdown = 10;
+  while (countdown > 0) {
+    console.log(--countdown); 
+}
     return Math.random() >= 0.5;
 }
 while (true()) {
