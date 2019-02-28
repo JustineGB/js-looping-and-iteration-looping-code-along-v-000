@@ -10,18 +10,12 @@ printBadges(names);
 
 
 function tailsNeverFails() {
-  var timesFlipped = 0 
-  while (timesFlipped < 10) {
-    var coin = Math.random() >= 0.5;
-    
-  }
-  let countdown = 10;
-  while (countdown > 0) {
-    console.log(--countdown); 
+var coinFace = Math.floor(Math.random() * 2);
+
+while(coinFace === 0){
+    console.log("Heads! Flipping again...");
+    var coinFace = Math.floor(Math.random() * 2);
 }
-    return Math.random() >= 0.5;
+console.log("Tails! Done flipping.");
+
 }
-while (true()) {
-    console.log('And I ran... I ran so far away!');
-}
-  
